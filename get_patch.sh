@@ -2,7 +2,7 @@
 # BY Ahmed Hady
 
 #! /bin/bash
-mkdir PATCHES
+[ -f PATCHES ] || mkdir PATCHES
 cd PATCHES
 for ((a=$1; a <= $2 ; a++))
 do
